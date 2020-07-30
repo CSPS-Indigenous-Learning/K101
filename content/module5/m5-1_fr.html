@@ -1,0 +1,53 @@
+<h1>Prochaines étapes</h1>
+<p>Étant des employés de la fonction publique, vous avez une occasion unique d’établir des relations et de collaborer avec les collectivités des Premières Nations pour un avenir meilleur. Nous pouvons influencer le cours des choses en fournissant le soutien nécessaire. Voici quelques idées venant d’employés qui ont participé aux activités éducatives offertes dans la Série d’apprentissage sur les questions autochtones. Vous pouvez vous en inspirer!</p>
+<div class="wb-tabs carousel-s2 fast wayForward circle-bundle click" data-wb-tabs='{"excludePlay": true}'>
+    <ul role="tablist">
+        <li class="active"><a href="#panel1">Citation 1</a></li>
+        <li><a href="#panel2">Citation 2</a></li>
+        <li><a href="#panel3">Citation 3</a></li>
+        <li><a href="#panel4">Citation 4</a></li>
+        <li><a href="#panel5">Citation 5</a></li>
+        <li><a href="#panel6">Citation 6</a></li>
+    </ul>
+    <div class="tabpanels">
+        <div role="tabpanel" id="panel1" class="fade in"> 
+            <div class="carouselText">
+                <p class="citation"><span class="wb-inv">«</span>Le Canada de mes rêves repose sur un véritable partenariat et une collaboration égale pour le mieux-être de tous.<span class="wb-inv">»</span></p>
+            </div>
+        </div>
+        <div role="tabpanel" id="panel2" class="fade out"> 
+            <div class="carouselText">
+                <p class="citation"><span class="wb-inv">«</span>Je partagerai avec d’autres ce que j’ai appris. Il faut sept générations pour aboutir à une vraie guérison.<span class="wb-inv">»</span></p>
+            </div>
+        </div>
+        <div role="tabpanel" id="panel3" class="fade out"> 
+            <div class="carouselText">
+                <p class="citation"><span class="wb-inv">«</span>La réconciliation consiste à comprendre le passé et à prendre des mesures pour réparer ensemble les torts.<span class="wb-inv">»</span></p>
+            </div>
+        </div>
+        <div role="tabpanel" id="panel4" class="fade out"> 
+            <div class="carouselText">
+                <p class="citation"><span class="wb-inv">«</span>Je serai un champion du changement. Je donnerai l’exemple. Je m’exprimerai sur le sujet.<span class="wb-inv">»</span></p>
+            </div>
+        </div>
+		<div role="tabpanel" id="panel5" class="fade out"> 
+            <div class="carouselText">
+                <p class="citation"><span class="wb-inv">«</span>Du respect pour tous et continuer à enseigner la culture.<span class="wb-inv">»</span></p>
+            </div>
+        </div>
+		<div role="tabpanel" id="panel6" class="fade out"> 
+            <div class="carouselText">
+                <p class="citation"><span class="wb-inv">«</span>L’inclusion, c’est lorsque chacun se sent en sécurité et exprime sa vraie personnalité ouvertement, au travail et dans la vie en général.<span class="wb-inv">»</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- Tabpanels end--> 
+</div>
+<script>
+
+$(document).on("wb-ready.wb-tabs", ".wb-tabs", function(event){
+	var content = $(".wb-tabs .tab-count div").html();
+	$(".wb-tabs .tab-count div").html(content.replace("Article", "Citation"));
+});
+
+</script>
